@@ -6,6 +6,9 @@
   --sora: "Sora", sans-serif;
   --primary:#00351A;
 }
+@theme{
+  --font-lato:"Lato", sans-serif;
+}
 body {
   font-family: var(--sora);
   background-color: #f9f9f9;

@@ -6,7 +6,7 @@ export default function HomePage() {
       className="
     2xl:h-[624px]
     xl:h-[600px] 
-    md:h-[400px] 
+    md:h-[500px] 
     absolute w-full top-10  overflow-hidden"
     >
       <img
@@ -14,8 +14,8 @@ export default function HomePage() {
         alt="Latar Belakang Sekolah Al-Amanah"
         className="w-full  
         2xl:h-[924px]
-        xl:h-[500px] 
-        md:h-[300px]
+        xl:h-[600px] 
+        md:h-[500px]
         object-cover 
         object-[20%_30%] rounded-b-xl"
       />
@@ -34,10 +34,10 @@ export default function HomePage() {
       </div>
       <div
         className="   
-                2xl:h-[624px]
-                xl:h-[500px]  
-                md:h-[300px] 
-                absolute inset-0 flex layer-home opacity-40 rounded-b-xl"
+                2xl:h-[924px]
+                xl:h-[600px]  
+                md:h-[500px] 
+                absolute inset-0 flex layer-home opacity-50 rounded-b-xl"
       ></div>
     </div>
   );
