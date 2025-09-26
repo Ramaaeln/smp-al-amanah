@@ -62,7 +62,9 @@ export default function Header() {
 
         {open && (
           <div className="md:absolute md:top-20 md:right-5 md:bg-white md:p-5 md:rounded 
-          sm:absolute sm:top-20 sm:right-5 sm:bg-white sm:p-5 sm:rounded 
+          sm:absolute sm:top-20 sm:right-5 sm:bg-white sm:p-5 sm:rounded
+          absolute top-20 right-5 bg-white p-5 rounded 
+
           shadow flex flex-col gap-3 uppercase text-[var(--primary)] font-lato 
           2xl:hidden 
           xl:hidden 
