@@ -4,6 +4,7 @@
 :root {
   --header: #00351a;
   --sora: "Sora", sans-serif;
+  --primary:#00351A;
 }
 body {
   font-family: var(--sora);
