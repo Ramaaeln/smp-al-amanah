@@ -15,7 +15,7 @@ export default function Header() {
         <Link to="/" >
           Home
         </Link>
-        <Link to="/about">
+        <Link to="/berita">
           Berita terkini
         </Link>
         <Link to="/dashboard">
