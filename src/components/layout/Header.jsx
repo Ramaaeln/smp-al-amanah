@@ -14,6 +14,7 @@ export default function Header() {
         lg:block
         md:hidden
         sm:hidden
+        hidden
         "
       >
         <Link className="bg-white p-1 rounded text-[var(--header)]" to="/">
@@ -27,7 +28,7 @@ export default function Header() {
       lg:bg-transparent
       md:bg-[var(--header)]
       sm:bg-[var(--header)]  
-      flex w-full p-2 py-5 justify-between items-center">
+      bg-[var(--header)] flex w-full p-2 py-5 justify-between items-center">
         <div>
           <img src={Logo} height={89} width={284} alt="" />
         </div>
@@ -47,8 +48,8 @@ export default function Header() {
 
         <div
           className="
-        2xl:block xl:block lg:block 
-        md:hidden sm:hidden
+        2xl:flex xl:flex lg:flex 
+        md:hidden sm:hidden hidden
         flex gap-6 uppercase text-[var(--primary)] font-lato 2xl:text-lg xl:text-lg
         "
         >
